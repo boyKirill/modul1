@@ -1,0 +1,278 @@
+@media screen and (max-width: 1200px) {
+  .data {
+    padding: 143px 0 0px 0;
+    background: url("../img/section1/1.png") 95% 85% no-repeat;
+    background-size: 62%;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .data {
+    padding: 100px 0;
+    background: url("../img/section1/1.png") 95% 55% no-repeat;
+    background-size: 62%;
+  }
+  .data__title {
+    font-size: 60px;
+    line-height: 48px;
+  }
+  .data__text {
+    max-width: 300px;
+    padding: 50px 0 50px 0;
+  }
+  .bank {
+    padding-top: 50px;
+  }
+  .features__column {
+    min-height: 350px;
+  }
+  .features__container {
+    padding: 0 15px;
+  }
+  .features__row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .bank {
+    padding-top: 0;
+  }
+  .bank__body {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .bank__text-information {
+    padding: 0 15px 0 50px;
+  }
+  .testimonials__container {
+    padding: 70px 76px 60px 93px;
+  }
+  .testimonials__titles {
+    padding: 0 0 48px 0;
+  }
+  .testimonials__slider-item._active {
+    min-width: 550px;
+    padding: 60px 70px 50px 70px;
+    -webkit-box-shadow: 0px 20px 0px #8a56db;
+            box-shadow: 0px 20px 0px #8a56db;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .data__title {
+    font-size: 33px;
+    line-height: normal;
+    padding: 0 0 0 20px;
+  }
+  .data__text {
+    padding: 20px 0 50px 20px;
+    font-size: 15px;
+    max-width: 260px;
+  }
+  .data__button {
+    margin: 0 0 0 20px;
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+  .bank__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bank__image {
+    width: 100%;
+  }
+  .bank__text-information {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .features__title {
+    padding: 150px 0 10px 0;
+    font-size: 33px;
+  }
+  .features__row {
+    padding: 50px 0 125px 0;
+  }
+  .testimonials__container {
+    padding: 50px 50px 40px 50px;
+  }
+  .testimonials__titles {
+    padding: 0 0 28px 0;
+  }
+  .testimonials__slider-item {
+    min-width: 300px;
+    padding: 30px 20px 25.5px 20px;
+  }
+  .testimonials__slider-item._active {
+    min-width: 445px;
+    padding: 30px 35px 25px 35px;
+    -webkit-box-shadow: 0px 20px 0px #8a56db;
+            box-shadow: 0px 20px 0px #8a56db;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header__logo {
+    padding: 0 0 0 50px;
+  }
+  .header__menu {
+    padding: 0 0px 0 40px;
+  }
+  .data {
+    padding: 100px 0 0 0;
+    background: url("../img/section1/1.png") 97% 64% no-repeat;
+    background-size: 57%;
+  }
+  .bank__container {
+    padding: 0 20px;
+  }
+  .bank__text-information {
+    padding: 0 0px 20px 10px;
+  }
+  .bank__title {
+    font-size: 35px;
+  }
+  .features__column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-size: 124%;
+  }
+  .features__column:nth-child(1) {
+    background: url(../img/section3/tr1.png) 100% 100% no-repeat;
+    background-size: 124%;
+  }
+  .features__column:nth-child(2) {
+    background: url(../img/section3/tr2.png) 100% 100% no-repeat;
+    background-size: 124%;
+  }
+  .features__column:nth-child(3) {
+    background: url(../img/section3/tr3.png) 100% 100% no-repeat;
+    background-size: 124%;
+  }
+  .features__column:nth-child(4) {
+    background: url(../img/section3/tr4.png) 100% 100% no-repeat;
+    background-size: 124%;
+  }
+  .features__images-section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features__information-title {
+    padding: 10px 0 15px 0;
+  }
+  .features__information-button::after {
+    left: 100px;
+  }
+  .testimonials {
+    padding: 50px 50px 80px 50px;
+  }
+  .testimonials__titles {
+    font-size: 35px;
+  }
+  .testimonials__slidertext {
+    margin-left: -30px;
+  }
+  .testimonials__slider-item._active {
+    min-width: 345px;
+    padding: 30px 35px 25px 35px;
+    -webkit-box-shadow: 0px 20px 0px #8a56db;
+            box-shadow: 0px 20px 0px #8a56db;
+  }
+  .slider-item__text {
+    margin: 20px 0 0 -100px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .data {
+    background: url("../img/section1/1.png") 52% 13% no-repeat;
+    background-size: 70%;
+  }
+  .data__container {
+    padding: 150px 30px 50px 30px;
+  }
+  .data__text {
+    max-width: 380px;
+  }
+  .bank {
+    padding-top: 70px;
+  }
+  .bank__title {
+    font-size: 30px;
+    line-height: normal;
+    padding: 0 0 20px 0;
+  }
+  .testimonials {
+    padding: 10px 10px 50px 10px;
+  }
+  .testimonials__container {
+    padding: 30px;
+  }
+  .testimonials__titles {
+    font-size: 32px;
+  }
+  .testimonials__slider-item._active {
+    min-width: 345px;
+    padding: 30px 35px 25px 35px;
+    -webkit-box-shadow: 0px 20px 0px #8a56db;
+            box-shadow: 0px 20px 0px #8a56db;
+  }
+  .slider-item__text {
+    margin: 20px 0 0 -100px;
+    padding: 5px;
+  }
+  .footer {
+    padding: 100px 0 65px 0;
+  }
+  .footer__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .data {
+    padding: 100px 0 0 0;
+    background: url("../img/section1/1.png") 52% 13% no-repeat;
+    background-size: 84%;
+  }
+  .testimonials__slider-item._active {
+    min-width: 285px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .data {
+    background: url("../img/section1/1.png") 52% 13% no-repeat;
+    background-size: 96%;
+  }
+  .features__information-section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 40px 0 15px;
+  }
+  .testimonials__slider-item._active {
+    min-width: 245px;
+    padding: 30px 35px 25px 35px;
+    -webkit-box-shadow: 0px 20px 0px #8a56db;
+            box-shadow: 0px 20px 0px #8a56db;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bank__title {
+    font-size: 33px;
+  }
+}
