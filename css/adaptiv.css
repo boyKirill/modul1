@@ -1,6 +1,27 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 2560px) {
   .data {
     padding: 143px 0 0px 0;
+    background: url(../img/section1/1.png) 65% 104% no-repeat;
+    background-size: 34%;
+  }
+}
+
+@media screen and (max-width: 2100px) {
+  .data {
+    background: url(../img/section1/1.png) 70% 89% no-repeat;
+    background-size: 37%;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .data {
+    background: url(../img/section1/1.png) 76% 83% no-repeat;
+    background-size: 44%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .data {
     background: url("../img/section1/1.png") 95% 85% no-repeat;
     background-size: 62%;
   }
