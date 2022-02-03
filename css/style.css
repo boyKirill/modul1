@@ -1,3 +1,7 @@
+body._lock {
+  overflow: hidden;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -23,6 +27,10 @@
   padding: 0 0px 0 140px;
 }
 
+.menu__icon {
+  display: none;
+}
+
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,6 +52,10 @@
 .menu__list li:first-child {
   font-weight: 800;
   color: #212353;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
 }
 
 .container {
