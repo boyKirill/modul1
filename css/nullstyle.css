@@ -25,6 +25,7 @@ nav, footer, header, aside {
 html, body {
   height: 100%;
   width: 100%;
+/*TODO: не перезаписывайте в одном блоке одно и то же свойство, font-size. */
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
